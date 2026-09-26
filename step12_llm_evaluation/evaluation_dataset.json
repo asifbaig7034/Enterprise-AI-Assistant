@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "question": "How many annual vacation days do employees receive?",
+        "expected_answer": "Employees receive 24 annual vacation days.",
+        "expected_context": "Employees receive 24 annual vacation days."
+    },
+    {
+        "id": 2,
+        "question": "How many working days in advance should vacation be requested?",
+        "expected_answer": "Vacation requests should be submitted at least five working days in advance.",
+        "expected_context": "Employees should submit vacation requests through their manager at least five working days before the requested leave."
+    },
+    {
+        "id": 3,
+        "question": "Can employees work remotely?",
+        "expected_answer": "Employees can work remotely up to two days per week with manager approval.",
+        "expected_context": "Employees can work remotely up to two days per week with manager approval."
+    },
+    {
+        "id": 4,
+        "question": "How often must employees change their password?",
+        "expected_answer": "Employees must change their company password every 90 days.",
+        "expected_context": "Employees must change their company password every 90 days."
+    },
+    {
+        "id": 5,
+        "question": "Can employees share their passwords?",
+        "expected_answer": "No. Employees must never share their passwords with another person.",
+        "expected_context": "Employees must never share their passwords with another person."
+    },
+    {
+        "id": 6,
+        "question": "Does the company provide dental insurance?",
+        "expected_answer": "The available company policies do not contain information about dental insurance.",
+        "expected_context": ""
+    }
+]

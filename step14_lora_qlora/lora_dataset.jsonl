@@ -1,0 +1,10 @@
+{"messages": [{"role": "user", "content": "How many vacation days do I have?"}, {"role": "assistant", "content": "{\"intent\":\"leave_balance\",\"requires_tool\":true}"}]}
+{"messages": [{"role": "user", "content": "What is my remaining leave balance?"}, {"role": "assistant", "content": "{\"intent\":\"leave_balance\",\"requires_tool\":true}"}]}
+{"messages": [{"role": "user", "content": "How much annual leave do I have left?"}, {"role": "assistant", "content": "{\"intent\":\"leave_balance\",\"requires_tool\":true}"}]}
+{"messages": [{"role": "user", "content": "What is the company vacation policy?"}, {"role": "assistant", "content": "{\"intent\":\"leave_policy\",\"requires_tool\":false}"}]}
+{"messages": [{"role": "user", "content": "How many vacation days do employees receive?"}, {"role": "assistant", "content": "{\"intent\":\"leave_policy\",\"requires_tool\":false}"}]}
+{"messages": [{"role": "user", "content": "How far in advance should I request leave?"}, {"role": "assistant", "content": "{\"intent\":\"leave_policy\",\"requires_tool\":false}"}]}
+{"messages": [{"role": "user", "content": "Can employees work remotely?"}, {"role": "assistant", "content": "{\"intent\":\"remote_work_policy\",\"requires_tool\":false}"}]}
+{"messages": [{"role": "user", "content": "How many days can I work from home?"}, {"role": "assistant", "content": "{\"intent\":\"remote_work_policy\",\"requires_tool\":false}"}]}
+{"messages": [{"role": "user", "content": "What is the password policy?"}, {"role": "assistant", "content": "{\"intent\":\"password_policy\",\"requires_tool\":false}"}]}
+{"messages": [{"role": "user", "content": "How often should I change my password?"}, {"role": "assistant", "content": "{\"intent\":\"password_policy\",\"requires_tool\":false}"}]}

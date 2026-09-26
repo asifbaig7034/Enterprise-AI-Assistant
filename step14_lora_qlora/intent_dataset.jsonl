@@ -1,0 +1,10 @@
+{"input":"How many vacation days do I have?","output":"{\"intent\":\"leave_balance\",\"requires_tool\":true}"}
+{"input":"What is my remaining leave balance?","output":"{\"intent\":\"leave_balance\",\"requires_tool\":true}"}
+{"input":"How much annual leave do I have left?","output":"{\"intent\":\"leave_balance\",\"requires_tool\":true}"}
+{"input":"What is the company vacation policy?","output":"{\"intent\":\"leave_policy\",\"requires_tool\":false}"}
+{"input":"How many vacation days do employees receive?","output":"{\"intent\":\"leave_policy\",\"requires_tool\":false}"}
+{"input":"How far in advance should I request leave?","output":"{\"intent\":\"leave_policy\",\"requires_tool\":false}"}
+{"input":"Can employees work remotely?","output":"{\"intent\":\"remote_work_policy\",\"requires_tool\":false}"}
+{"input":"How many days can I work from home?","output":"{\"intent\":\"remote_work_policy\",\"requires_tool\":false}"}
+{"input":"What is the password policy?","output":"{\"intent\":\"password_policy\",\"requires_tool\":false}"}
+{"input":"How often should I change my password?","output":"{\"intent\":\"password_policy\",\"requires_tool\":false}"}

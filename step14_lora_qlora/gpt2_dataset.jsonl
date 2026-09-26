@@ -1,0 +1,10 @@
+{"text": "Question: How many vacation days do I have?\nAnswer: {\"intent\":\"leave_balance\",\"requires_tool\":true}"}
+{"text": "Question: What is my remaining leave balance?\nAnswer: {\"intent\":\"leave_balance\",\"requires_tool\":true}"}
+{"text": "Question: How much annual leave do I have left?\nAnswer: {\"intent\":\"leave_balance\",\"requires_tool\":true}"}
+{"text": "Question: What is the company vacation policy?\nAnswer: {\"intent\":\"leave_policy\",\"requires_tool\":false}"}
+{"text": "Question: How many vacation days do employees receive?\nAnswer: {\"intent\":\"leave_policy\",\"requires_tool\":false}"}
+{"text": "Question: How far in advance should I request leave?\nAnswer: {\"intent\":\"leave_policy\",\"requires_tool\":false}"}
+{"text": "Question: Can employees work remotely?\nAnswer: {\"intent\":\"remote_work_policy\",\"requires_tool\":false}"}
+{"text": "Question: How many days can I work from home?\nAnswer: {\"intent\":\"remote_work_policy\",\"requires_tool\":false}"}
+{"text": "Question: What is the password policy?\nAnswer: {\"intent\":\"password_policy\",\"requires_tool\":false}"}
+{"text": "Question: How often should I change my password?\nAnswer: {\"intent\":\"password_policy\",\"requires_tool\":false}"}

@@ -1,0 +1,97 @@
+import os
+import json
+
+from dotenv import load_dotenv
+from google import genai
+
+
+load_dotenv("../step1_llm/.env")
+
+api_key = os.getenv("GEMINI_API_KEY")
+
+if not api_key:
+    raise ValueError(
+        "GEMINI_API_KEY was not found."
+    )
+
+
+client = genai.Client(
+    api_key=api_key
+)
+
+
+test_questions = [
+    "How many vacation days do I have?",
+    "What is the company's vacation policy?",
+    "Can I work from home?",
+    "How often should I change my password?"
+]
+
+
+prompt = """
+Classify the user's request.
+
+Possible intents:
+
+- leave_balance
+- leave_policy
+- remote_work_policy
+- password_policy
+
+Return only the intent name.
+
+User question:
+"""
+
+
+correct_answers = [
+    "leave_balance",
+    "leave_policy",
+    "remote_work_policy",
+    "password_policy"
+]
+
+
+correct = 0
+
+
+for question, expected in zip(
+    test_questions,
+    correct_answers
+):
+
+    response = client.models.generate_content(
+        model="gemini-3.5-flash",
+        contents=prompt + question
+    )
+
+    predicted = response.text.strip().lower()
+
+    print("=" * 60)
+
+    print("Question:", question)
+    print("Expected:", expected)
+    print("Predicted:", predicted)
+
+    if expected in predicted:
+
+        correct += 1
+        print("PASS")
+
+    else:
+
+        print("FAIL")
+
+
+accuracy = correct / len(test_questions)
+
+
+print("\n" + "=" * 60)
+print("BASELINE")
+print("=" * 60)
+
+print(
+    "Accuracy:",
+    round(accuracy * 100, 2),
+    "%"
+)

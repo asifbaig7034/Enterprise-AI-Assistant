@@ -1,0 +1,12 @@
+{"input":"How many vacation days do employees receive?","output":"Employees receive 24 annual vacation days."}
+{"input":"How many annual leave days are available?","output":"Employees receive 24 annual vacation days."}
+{"input":"How much vacation can I take each year?","output":"Employees receive 24 annual vacation days."}
+{"input":"Can I work from home?","output":"Employees can work remotely up to two days per week with manager approval."}
+{"input":"How many days can I work remotely?","output":"Employees can work remotely up to two days per week with manager approval."}
+{"input":"Is remote work allowed?","output":"Yes. Employees can work remotely up to two days per week with manager approval."}
+{"input":"When should I submit a vacation request?","output":"Vacation requests should be submitted through the manager at least five working days before the requested leave."}
+{"input":"How early do I need to request vacation?","output":"Vacation requests should be submitted through the manager at least five working days before the requested leave."}
+{"input":"When must employees change their passwords?","output":"Employees must change their company password every 90 days."}
+{"input":"How frequently should passwords be changed?","output":"Employees must change their company password every 90 days."}
+{"input":"Can employees share passwords?","output":"No. Employees must never share their passwords with another person."}
+{"input":"Is password sharing allowed?","output":"No. Employees must never share their passwords with another person."}
